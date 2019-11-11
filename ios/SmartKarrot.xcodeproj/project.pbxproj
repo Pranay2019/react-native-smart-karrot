@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B3E7B58A1CC2AC0600A0062D /* SmartKarrot.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* SmartKarrot.m */; };
-		F1C0B02923788E0E0071AB98 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0B02723788E0E0071AB98 /* Test.swift */; };
-		F1C0B02A23788E0E0071AB98 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C0B02823788E0E0071AB98 /* Test.m */; };
+		F1C0B051237944EE0071AB98 /* SmartKarrotBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0B04F237944EE0071AB98 /* SmartKarrotBridge.swift */; };
+		F1C0B052237944EE0071AB98 /* SmartKarrotBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C0B050237944EE0071AB98 /* SmartKarrotBridge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +28,9 @@
 		134814201AA4EA6300B7C361 /* libSmartKarrot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSmartKarrot.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5881CC2AC0600A0062D /* SmartKarrot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartKarrot.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* SmartKarrot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartKarrot.m; sourceTree = "<group>"; };
-		F1C0B02623788E0D0071AB98 /* SmartKarrot-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartKarrot-Bridging-Header.h"; sourceTree = "<group>"; };
-		F1C0B02723788E0E0071AB98 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		F1C0B02823788E0E0071AB98 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		F1C0B04E237944ED0071AB98 /* SmartKarrot-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartKarrot-Bridging-Header.h"; sourceTree = "<group>"; };
+		F1C0B04F237944EE0071AB98 /* SmartKarrotBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartKarrotBridge.swift; sourceTree = "<group>"; };
+		F1C0B050237944EE0071AB98 /* SmartKarrotBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartKarrotBridge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +57,10 @@
 			children = (
 				B3E7B5881CC2AC0600A0062D /* SmartKarrot.h */,
 				B3E7B5891CC2AC0600A0062D /* SmartKarrot.m */,
-				F1C0B02823788E0E0071AB98 /* Test.m */,
-				F1C0B02723788E0E0071AB98 /* Test.swift */,
+				F1C0B050237944EE0071AB98 /* SmartKarrotBridge.m */,
+				F1C0B04F237944EE0071AB98 /* SmartKarrotBridge.swift */,
 				134814211AA4EA7D00B7C361 /* Products */,
-				F1C0B02623788E0D0071AB98 /* SmartKarrot-Bridging-Header.h */,
+				F1C0B04E237944ED0071AB98 /* SmartKarrot-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,9 +122,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1C0B02A23788E0E0071AB98 /* Test.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* SmartKarrot.m in Sources */,
-				F1C0B02923788E0E0071AB98 /* Test.swift in Sources */,
+				F1C0B051237944EE0071AB98 /* SmartKarrotBridge.swift in Sources */,
+				F1C0B052237944EE0071AB98 /* SmartKarrotBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
